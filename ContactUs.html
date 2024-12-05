@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+   <div class="wrapper">
+
+    <!-- 2. add <header> for image/navigation bar here. see the instruction to add the code -->
+<header>
+ <h1>Disruptive Reality</h1>
+    <h3>Acknowledging Virtual Reality’s Disruptive Existence</h3>
+    
+ <nav> 
+ <ul>
+ <li><a href="index.html">Home</a></li>
+<li><a href="ContactUs.html" class="current">Contact Us</a></li>
+<li><a href="AboutUs.HTML">About Us</a></li>
+<li><a href="FAQ.html">FAQ</a></li>
+<li><a href="information.html">Information</a></li>
+ </ul>
+ </nav>
+ </header>
+    <h3 class="subheading">Contact Us!</h3>
+        <form action="ThankYou.html" method="get">
+            <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phoneNum">Phone Number:</label>
+            <input type="tel" id="phoneNum" name="phoneNum">
+            </p>
+            <p>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject">
+            </p>          
+            <p>
+                <label for="comments">Comments:</label><br>
+                <textarea rows="4" cols="40" id="comments"></textarea>
+            </p>
+            
+            <p> Do you like our site? <br>
+                <label><input type="radio" name="rating" value="yes"> Yes</label>
+                <label><input type="radio" name="rating" value="no"> No</label>
+            </p>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

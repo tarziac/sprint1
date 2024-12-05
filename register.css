@@ -1,0 +1,79 @@
+ fieldset {
+            width: 75%;
+            margin: auto
+        }
+
+    label[for="name"] {
+            float: inline-start;
+            width: 15em;
+            text-align: right;
+        margin-left: 7em;
+            
+        }
+  label[for="email"] {
+            float: inline-start;
+            width: 15em;
+            text-align: right;
+            margin-left: 7em;
+        }
+  label[for="phoneNum"] {
+            float:inline-start;
+            width: 15em;
+            text-align: right;
+      margin-left: 7em;
+            
+        }
+p {font-family: Merriweather, serif;
+        font-size: 16px} 
+
+        input[id="name"] {
+            
+            width: 15em;
+            margin-left: -26.5em;
+            margin-bottom: .5em;
+        }
+        input[id="phoneNum"] {
+            
+            width: 15em;
+            margin-left: -26.5em;
+            margin-bottom: 0.5em;
+        }
+        input[id="email"] {
+            
+            width: 15em;
+            margin-left: -26.5em;
+            margin-bottom: 0.5em;
+        }
+        input:required {
+            border: 2px solid blue;
+        }
+			        
+        .optional {
+            border: 2px solid white;  /* to make it work, add class = “optional” to the 
+ target html elements */
+        }
+
+        input[type="submit"] {
+            width: 7em;
+            background-color: white;
+            color: black;
+            margin-left: 4em
+        }
+        input[type="radio"] {
+            width: 1em;
+            background-color: white;
+            color: black;
+            margin-left: 1em;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+
+        .register {
+            border: none;
+        }
+
+        aside {
+            border-left: 1px solid green
+        }

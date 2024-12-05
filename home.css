@@ -1,0 +1,149 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 1px;
+    background: url("images/bgpattern.png"); 
+}
+@font-face{
+    font-family: Rubik Mono One;
+    src: url('RubikMonoOne-Regular.ttf');
+}
+.wrapper {
+    width: 940px;
+    margin: 21px auto;    /* 20px on top/bottom and equal margin for left/right */ 
+    background-color: #00004b   ;
+    border: 2px solid rgba(231, 73, 244, 0.94);
+}
+
+/* header */
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li{
+
+  background-color: #282A35;
+  color:#f1f1f1;
+  padding:0;
+  letter-spacing:2px;
+    height: auto;
+  width:auto;
+    border: solid magenta;
+}
+nav a {
+  width:auto;
+  margin: 0px!important;
+  padding:1px 38px 0px 38px !important;
+  font-size:19px!important;
+  text-decoration: none;  
+  line-height: 1.3;
+}
+
+nav, footer {
+    clear:both;
+    background-color: rgba(231, 73, 244, 0.94);
+    color: white;
+    height: 30px;
+}
+
+nav ul {
+    margin-top: -6px;
+
+}
+
+nav li a {color: white}
+
+nav li a:hover{
+    color: aqua;
+    background-color: black;
+    transition: .7s;
+}
+nav li .current {
+    background-color: #8f088f;
+    color: white;
+}
+
+a { text-decoration: none; }
+
+/* main section */
+
+
+figure {
+    align-content:center;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid magenta;
+}
+
+.courses article {
+    overflow: auto; 
+    width: 100%;
+}
+
+figcaption {
+     color: lightgray;
+    text-align: center;
+    font-size: 50%;
+    font-weight: normal;
+    font-family: 'Courier New'; color: white;
+
+
+}
+h1 {
+    font-weight: 800;
+    font-family: 'Rubik Mono One'; color: aqua;
+text-align: center;
+    font-size: 50px
+}
+ h3, h4 {
+     font-weight: normal;
+    font-family: 'Courier New'; color: white;
+    text-align: center;
+}
+p{
+    font-weight: normal;
+    font-family: 'Courier New'; color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    font-weight: bolder;
+    font-family: 'Courier New'; color: white;
+    text-align: center;
+    font-size: 30px;
+}    
+
+h3 {
+    color: #fe00ff;
+    font-weight: 600;
+    font-size: 20px
+}
+    p {font-family: Merriweather, serif;
+        font-size: 20px} 
+/* sidebar */
+aside {
+    width: 230px;
+    padding-left: 20px;
+}
+
+aside article a {
+    display: block; /*change <a> tag(inline element) to a block element */
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside article a:hover { color: yellow; }
+
+.contact { padding-top: 30px; }
+.submit {margin-bottom: 30px;
+    margin-left: 23px} 
+
+/* footer */
+footer {
+    font-size: 80%;
+    padding: 7px 1px 1px 20px;
+}
+ 
