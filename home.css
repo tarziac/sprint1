@@ -4,7 +4,7 @@ body {
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 1px;
-    background: url("images/bgpattern.png"); 
+    background: url("bgpattern.png"); 
 }
 @font-face{
     font-family: Rubik Mono One;
