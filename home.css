@@ -1,14 +1,15 @@
 header, section, footer, aside, nav, article, figure, figcaption {
     display: block;}
+
+@font-face{
+    font-family: Rubik Mono One;
+    src: url('RubikMonoOne-Regular.ttf');
+}
 body {
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 1px;
     background: url("bgpattern.png"); 
-}
-@font-face{
-    font-family: Rubik Mono One;
-    src: url('RubikMonoOne-Regular.ttf');
 }
 .wrapper {
     width: 940px;
